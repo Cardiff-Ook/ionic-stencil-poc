@@ -1,7 +1,0 @@
-{
-  "name": "Ionic Stencil PoC",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}

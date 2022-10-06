@@ -31,6 +31,11 @@
               },
               {
                 "glob": "**/*",
+                "input": "./node_modules/poc-adm-components/dist/components/assets",
+                "output": "/build/assets"
+              },
+              {
+                "glob": "**/*",
                 "input": "node_modules/poc-adm-components/dist/components/assets",
                 "output": "/assets"
               },
@@ -131,6 +136,11 @@
                 "glob": "**/*",
                 "input": "./node_modules/poc-adm-components/dist/components/assets",
                 "output": "/assets"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/poc-adm-components/dist/components/assets",
+                "output": "/build/assets"
               },
               {
                 "glob": "**/*",

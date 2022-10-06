@@ -1,19 +1,17 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Tab 2
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-content [fullscreen]="true">
+    <app-explore-container name="Tab 1 page"></app-explore-container>
+    <page-header brand="admiral"></page-header>
+    <login-title-wrapper></login-title-wrapper>
+  </ion-content>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-  <page-header first="Stencil" last="'Don't call me a framework' JS"></page-header>
-  <i class="fas fa-camera"></i>
+  <app-explore-container name="Tab 2 page"></app-explore-container>
 </ion-content>
